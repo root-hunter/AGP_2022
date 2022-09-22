@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+h1, h2, h3, h4, h5, h6, p, span, a {
+    font-family: Montserrat;
+}
+
+
+a {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.sidebar-item {
+    font-family: Montserrat;
+    list-style-type: none;
+    font-weight: 500;
+    transition: .3s;
+    transform: translate(-5px);
+    text-decoration: none;
+    color: black;
+}
+
+#active {
+    background-image: linear-gradient(118deg,#0483e6,rgba(4,131,230,.7));
+    color:white;
+    transform: translate(5px);
+}
+
+.sidebar-item:hover {
+    cursor: pointer;
+    transition: .3s;
+    transform: translate(5px);
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar-item #icon {
+    flex:30%;
+    display: grid;
+    place-items: center;
+}
+
+.sidebar-item #title {
+    flex:70%;
+}
+
+.shadow {
+    box-shadow: 6px 6px 12px 0px rgba(0,0,0,0.34);
+-webkit-box-shadow: 6px 6px 12px 0px rgba(0,0,0,0.34);
+-moz-box-shadow: 6px 6px 12px 0px rgba(0,0,0,0.34);
+}
+
+#tableTitle {
+    font-family: 'Montserrat';
+}
